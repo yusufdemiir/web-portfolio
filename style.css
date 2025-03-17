@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 .container {
-    width: 60%;
+    width: 70%;
     margin: auto;
     background: white;
     padding: 20px;
@@ -43,4 +43,19 @@ h1, h2 {
 li {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.social-buttons {
+    display: flex;          
+    justify-content: center; 
+    gap: 10px;
+    margin: 20px;         
+}
+.social-buttons a {
+    height: 50px;
+    width: 50px;
+
+}
+.social-buttons img {
+    height: 50px;
+    width: 50px;
 }
